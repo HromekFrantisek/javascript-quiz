@@ -1,7 +1,15 @@
 body {
     text-align: center;
     margin: auto;
-    color: lightgree
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 32px;
 }
 
 img {
@@ -9,28 +17,23 @@ img {
     width: 360px;
 }
 
-.button {
-    height: 34px;
+.scoreBox>p {
+    font-size: 72px;
 }
 
-#roll {
-    margin: 30px;
+.button {
+    height: 34px;
 }
 
 #flagImage {
     border: 1px solid black;
 }
 
-main {
-    margin-top: 100px;
-}
-
 footer {
     position: fixed;
-    padding-bottom: 5px;
-    padding-right: 10px;
     bottom: 0;
     right: 0;
+    margin-right: 10px;
 }
 
 .scoreRow {
@@ -39,6 +42,6 @@ footer {
     align-items: center;
 }
 
-.scoreBox {
-    margin: 30px 0px;
+.inputRow {
+    margin-top: 30px;
 }
