@@ -11,18 +11,37 @@
 </head>
 
 <body>
-    <h1>Fun with flags</h1>
+    <header>
+        <h1>Guess the flag !</h1>
+    </header>
 
-    <div>
-        <img class="flag" src="/img/flags/nz.png" alt="Random flag">
-    </div>
+    <main>
+        <div class="scoreRow">
+            <div class="scoreBox">
+                <h3>Correct answers</h3>
+                <p id="correctAnswers">0</p>
+            </div>
 
-    <button class="button roll">Roll</button>
+            <img id="flagImage" src="/img/flags/nz.png" alt="Random flag">
+            <div class="scoreBox">
+                <h3>Wrong answers</h3>
+                <p id="wrongAnswers">0</p>
+            </div>
 
-    <div class="input-row">
-        <input type="text" placeholder="This will be checking answers">
-        <button class="button">Check</button>
-    </div>
+        </div>
+
+        <button class="button" id="roll">Roll</button>
+
+        <div class="input-row">
+            <input id='userInput' type="text" placeholder="This will be checking answers">
+            <button id="check" type="submit" class="button">Check</button>
+        </div>
+    </main>
+
+    <footer>
+        Made by HromekFrantisek
+    </footer>
+
 
 </body>
 
