@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+img {
+    height: 180px;
+    width: 360px;
+}
+
+.button {
+    height: 34px;
+}
+
+.roll {
+    margin: 30px;
+}
